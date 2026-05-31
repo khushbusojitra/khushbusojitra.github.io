@@ -1133,6 +1133,6 @@ h1 span.text-primary {
 
 @media (max-width: 991.98px) {
   section.resume-section {
-    scroll-margin-top: 3.375rem; /* Offsets the fixed header on mobile/tablet anchor scrolls */
+    scroll-margin-top: 4rem !important; /* Offsets the fixed header on mobile/tablet scrolls with breathing room */
   }
 }

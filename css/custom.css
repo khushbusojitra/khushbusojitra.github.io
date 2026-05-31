@@ -1083,4 +1083,56 @@ h1 span.text-primary {
   .avail-modes { margin-left: 0; }
   .process-step { flex-direction: column; gap: 0.75rem; }
   .process-connector { margin-left: 1rem; }
+
+  /* Case study mobile optimizations to prevent clipping */
+  .case-card {
+    padding: 1.15rem !important;
+  }
+  .case-card h3 {
+    font-size: 0.98rem !important;
+    margin-bottom: 0.6rem !important;
+  }
+  .case-industry {
+    font-size: 0.7rem !important;
+    margin-bottom: 0.4rem !important;
+    letter-spacing: 1.5px !important;
+  }
+  .case-block {
+    padding: 0.5rem 0.65rem !important;
+    margin-bottom: 0.4rem !important;
+    font-size: 0.8rem !important;
+    line-height: 1.5 !important;
+  }
+  .case-label {
+    font-size: 0.6rem !important;
+    letter-spacing: 1.5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  /* Project card mobile optimizations */
+  .project-card {
+    padding: 1.15rem !important;
+    gap: 0.5rem !important;
+  }
+  .project-card h4 {
+    font-size: 0.95rem !important;
+  }
+  .project-outcome {
+    font-size: 0.75rem !important;
+    padding: 5px 10px !important;
+  }
+
+  /* Service card mobile optimizations */
+  .service-card {
+    padding: 1.15rem !important;
+  }
+  .service-card h3 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  section.resume-section {
+    scroll-margin-top: 3.375rem; /* Offsets the fixed header on mobile/tablet anchor scrolls */
+  }
 }

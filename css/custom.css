@@ -1132,7 +1132,10 @@ h1 span.text-primary {
 }
 
 @media (max-width: 991.98px) {
+  body {
+    padding-top: 4.75rem !important; /* Shifts the first section down on page load to clear the fixed navbar */
+  }
   section.resume-section {
-    scroll-margin-top: 4rem !important; /* Offsets the fixed header on mobile/tablet scrolls with breathing room */
+    scroll-margin-top: 4.75rem !important; /* Offsets the fixed header on mobile/tablet scrolls with breathing room */
   }
 }

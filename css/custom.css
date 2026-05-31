@@ -1364,9 +1364,7 @@ h1 span.text-primary {
    ================================================ */
 @media (max-width: 768px) {
   section.resume-section {
-    padding: 2.70rem 1.5rem !important;
-    scroll-margin-top: 4.75rem !important;
-    /* Offsets the fixed header on mobile/tablet scrolls with breathing room */
+    padding: 2.50rem 1.5rem !important;
   }
 
   .stats-bar {
